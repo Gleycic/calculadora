@@ -3,9 +3,7 @@ html {
   height: 100%;
 }
 
-*,
-*::before,
-*::after {
+* {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -38,15 +36,11 @@ header h1 {
 }
 
 .wrapper {
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
   background: #d9d9d980;
   border: 1px solid rgba(255, 255, 255, 0.01);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
   color: #232323;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   background: #d9d9d94d;
   border: 1px solid rgba(255, 255, 255, 0.34);
   flex-basis: 400px;
@@ -55,8 +49,6 @@ header h1 {
 }
 
 .display {
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
   background: rgba(217, 217, 217, 0.73);
   border: 1px solid rgba(255, 255, 255, 0.01);
   border-radius: 16px;
@@ -76,8 +68,6 @@ header h1 {
 } 
 
 .botao {
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
   background: #d9d9d9;
   border: 1px solid rgba(217, 217, 217, 0.01);
   border-radius: 16px;
@@ -91,8 +81,6 @@ header h1 {
 }
 
 .botao:last-child {
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
   background-color: #d9d9d9;
   border: 1px solid rgba(255, 255, 255, 0.01);
   border-radius: 16px;
